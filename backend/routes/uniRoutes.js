@@ -1,9 +1,8 @@
 const express = require('express')
+const { getuni } = require('../controllers/uniControllers')
 const router = express.Router()
 
 
-router.get('/',(req,res)=>{
-    res.send("get uni")
-})
+router.get('/',getuni)
 
 module.exports = router
