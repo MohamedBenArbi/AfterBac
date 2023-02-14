@@ -1,0 +1,24 @@
+{
+  "name": "afterbac",
+  "version": "1.0.0",
+  "description": "After Bac is a webApp that helps with choosing the right college for new baccalaureate graduate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedBenArbi/AfterBac.git"
+  },
+  "author": "Mohamed Ben Arbi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MohamedBenArbi/AfterBac/issues"
+  },
+  "homepage": "https://github.com/MohamedBenArbi/AfterBac#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
