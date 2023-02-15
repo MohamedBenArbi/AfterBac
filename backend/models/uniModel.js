@@ -1,9 +1,13 @@
 const mongoose = require('mongoose')
 
 const uniShema = mongoose.Schema({
-    Code : {
-        type : String 
-    },   
+
+ Bac : {
+    type: String
+ },
+Code : {
+    type : String 
+},   
 Filiere :{
     type : String
 },

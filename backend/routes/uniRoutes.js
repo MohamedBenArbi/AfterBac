@@ -3,6 +3,6 @@ const { getuni } = require('../controllers/uniControllers')
 const router = express.Router()
 
 
-router.get('/',getuni)
+router.get('/:section',getuni)
 
 module.exports = router
