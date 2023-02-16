@@ -17,5 +17,6 @@ const getUniByScore = asyncHandler(async(req,res)=>{
 
 
 module.exports ={
-    getuni
+    getuni,
+    getUniByScore
 }
