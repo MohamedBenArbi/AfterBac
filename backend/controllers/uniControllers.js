@@ -9,6 +9,12 @@ const getuni = asyncHandler(async(req,res)=>{
 })
 
 
+const getUniByScore = asyncHandler(async(req,res)=>{
+    const uni  = await Uni.find({"ScoreDernierOriente2021": req.params.score})
+    res.json(uni)
+})
+
+
 
 module.exports ={
     getuni
