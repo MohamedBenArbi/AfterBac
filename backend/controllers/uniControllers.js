@@ -11,7 +11,7 @@ const getuni = asyncHandler(async(req,res)=>{
 
 
 
-fd
+
 
 module.exports ={
     getuni 
