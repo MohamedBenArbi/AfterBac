@@ -8,6 +8,11 @@ const getuni = asyncHandler(async(req,res)=>{
     res.json(uni)
 })
 
+const getuniByScore = asyncHandler(async(req,res)=>{
+    const uni  = await Uni.find({"Score":req.params.Score})
+    res.json(uni)
+})
+
 
 
 
