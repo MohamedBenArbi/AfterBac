@@ -13,6 +13,11 @@ const getuniByScore = asyncHandler(async(req,res)=>{
     res.json(uni)
 })
 
+const getuniByGov = asyncHandler(async(req,res)=>{
+    const uni  = await Uni.find({"Gouvenant":req.params.Gov})
+    res.json(uni)
+})
+
 
 
 
